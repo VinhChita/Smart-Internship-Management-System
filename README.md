@@ -54,10 +54,8 @@ copy .env.example .env
 
 1. បើក MySQL ឬ phpMyAdmin។
 2. បង្កើត Database ថ្មី ឧទាហរណ៍ `smart_internship_management`។
-   ```cmd
-CREATE DATABASE smart_internship
-CHARACTER SET utf8mb4
-COLLATE utf8mb4_unicode_ci;
+```cmd
+CREATE DATABASE smart_internship CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
 4. កែព័ត៌មាន Database នៅក្នុងឯកសារ `.env`៖
 
