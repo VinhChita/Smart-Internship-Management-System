@@ -1,0 +1,1 @@
+@extends('layouts.app') @section('title',$title) @section('content')<div class="panel"><pre>{{ json_encode($item,JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE) }}</pre><a href="javascript:history.back()" class="btn btn-light">Back</a></div>@endsection
